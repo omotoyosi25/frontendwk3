@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medical form registration</title>
+</head>
+<body>
+   <form>
+        <fieldset>
+            <legend>personal information</legend>
+            <ul>
+                <li>
+                    <label for="full">full name</label>
+                    <input type="text" name="text" id="full" placeholder="firstname lastname" required>
+                </li>
+                <li>
+                    <label for="place">place of birth</label>
+                    <input type="text" name="text" id="place" placeholder="enter your city of birth">
+                </li>
+                <li>
+                    <label for="email">email address</label>
+                    <input type="text" name="text" id="email" placeholder="enter your email"> 
+                </li>
+                <li>
+                    <label for="pwd">password</label>
+                    <input type="password" name="text" id="pwd" placeholder="enter your password" required>
+                </li>
+                <li>
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address" cols="30" rows="1"></textarea>
+                </li>
+                <li>
+                    <label for="phone">phone number</label>
+                    <input type="text" name="text" id="phone" placeholder="+234">
+                </li>
+                <li>
+                    <label for="id">Id number</label>
+                    <input type="text" name="text" id="id" placeholder="">
+
+                </li>
+                <li>Gender <br>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">female</label>
+                </li>
+                <li> status <br>
+                    <input type="radio" name="status" id="single">
+                    <label for="single">single</label>
+                    <input type="radio" name="status" id="married">
+                    <label for="married">married</label> <input type="radio" name="status" id="divocer">
+                    <label for="divorce">divorce</label>
+                </li>
+                <li>
+                    <label for="work">occupation</label>
+                    <select name="work" id="work">
+                        <optgroup label="coding">
+                            <option value="fr">frontend</option>
+                            <option value="bk">backend</option>
+                            <option value="fs">fullstack</option>
+                        </optgroup>
+                        <optgroup label="no coding">
+                            <option value="pr">product design</option>
+                            <option value="pm">product management</option>
+                        </optgroup>
+                    </select>
+                </li>
+
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Emergency contact details</legend>
+            <ul>
+                <li>
+                    <label for="contact">contact name</label>
+                    <input type="text" name="text" id="contact">
+                </li>
+                <li>
+                    <label for="home">home name</label>
+                    <input type="text" name="text" id="home">
+                </li>
+                <li>
+                    <label for="state">state of origin</label>
+                    <select name="state" id="state">
+                        <optgroup label="south west">
+                            <option value="lag">lagos</option>
+                            <option value="ibd">ibadan</option>
+                        </optgroup>
+                        <optgroup label="south east">
+                            <option value="abia">Abia</option>
+                            <option value="anambra">Anambra</option>
+                        </optgroup>
+                        <optgroup label="north east">
+                            <option value="adama">Adamawa</option>
+                            <option value="bau">Bauchi</option>
+                        </optgroup><optgroup label="south south">
+                            <option value="akwa">Akwa Ibom</option>
+                            <option value="bayelsa">Bayelsa</option>
+                        </optgroup>
+                    </select>
+                </li>
+                <li>
+                    <label for="mobile">mobile number</label>
+                    <input type="text" name="text" id="mobile">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Office use only</legend>
+            <ul>
+                <li>
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date">
+                
+                    <label for="mem-num">Membership number</label>
+                    <input type="mem-num" name="mem-num" id="mem-num">
+                </li>
+                <li>
+                    <label for="mem-typ">Membership Type :</label>
+                    <select name="mem-typ" id="mem-typ">
+                        <option value="full">full Membership</option>
+                        <option value="full">Associate Membership</option>
+                        <option value="full">Affiliate Membership</option>
+                    </select>
+                    <label for="payment">Payment Type :</label>
+                    <select name="payment" id="payment">
+                        <optgroup label="card type">
+                            <option value="verve">verve</option>
+                            <option value="master card">master card</option>
+                            <option value="visa">visa</option>
+                        </optgroup>
+                        <option value="bank transfer">bank transfer</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="sn">Staff Name :</label>
+                    <input type="sn" name="sn" id="sn">
+                    <label for="Sign">Staff Signature :</label>
+                    <input type="file" name="sign" id="sign">
+                </li>
+                stack <br>
+                <input type="text" name="checkbox" id="stack">
+                <label for="dj"></label>
+                <li>
+                    <input type="submit" value="send">
+                </li>
+            </ul>
+        </fieldset>
+       
+   </form> 
+</body>
+</html>
